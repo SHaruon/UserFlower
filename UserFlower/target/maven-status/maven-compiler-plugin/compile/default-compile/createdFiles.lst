@@ -1,0 +1,10 @@
+com/xgen/userflower/UserFlower.class
+com/xgen/userflower/clean/BlockQuery.class
+com/xgen/userflower/clean/Clean.class
+com/xgen/userflower/clean/CoreProtectAccessor.class
+com/xgen/userflower/clean/CleanManager.class
+com/xgen/userflower/CommandExecute.class
+com/xgen/userflower/clean/CleaningRegionSaver.class
+com/xgen/userflower/clean/CleaningRegion.class
+com/xgen/userflower/AutoRunConfig.class
+com/xgen/userflower/clean/Point.class

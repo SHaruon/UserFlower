@@ -1,0 +1,25 @@
+## YAML Template.
+name: UserFlower
+version: 0.1
+description: Developed to realize sustainable MC-Server.
+author: xgen_old_man
+website: forum.minecraftuser.jp
+api-version: 1.19
+depend: [ LastLog , WorldGuard, CoreProtect ]
+#---
+main: com.xgen.userflower.UserFlower
+
+#---
+commands:
+    ufclean:
+        description: "不参加ユーザの保護エリアを解除、解除された保護エリア内のブロックを徐々に消す。"
+        usage: "clean [border] [deleteAmount]"
+    ufauto:
+        description: "自動実行の設定。(border/1000)秒前の間にログインしていないとそのプレイヤーのリージョンが解除され、リージョン範囲のブロックが(amount)個 消される。 (enable)がtrueなら、(interval/20)秒ごとに自動実行される。"
+        usage : "/auto [enable] [border] [amount] [interval] \n   enable : true/false\n   border : 1000(1s)\n   amount : 5(del 5 Blocks) \n    interval : 20(1s)"
+        
+permissions:
+    userflower.clean:
+        description : クリーンコマンドの実行を許可
+    userflower.auto  :
+        description : 自動実行の設定を許可
