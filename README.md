@@ -1,6 +1,7 @@
 
 
- <h5 >君も<a link=" http://webpage.yamanoko.fun"> 山の子鯖 </a>にいこう!</h5>
+ <h5 >君も山の子鯖 </a>にいこう!</h5>
+ http://webpage.yamanoko.fun"
  <br>
 
 <h1> UserFlower </h1>
@@ -83,7 +84,7 @@ jarディレクトリにある ファイル2点を サーバのpluginsフォル�
     <p> 60 x 60 x 20 = 72000</p>
     <p>を指定する必要があります。</p>
 
-    permission: "userflower.auto"
+        permission: "userflower.auto"
 
 
 
