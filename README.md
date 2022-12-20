@@ -1,6 +1,6 @@
 
 
- <h5 color=green> 山の子鯖 http://webpage.yamanoko.fun </h5>
+ <h5 style="color:green;"> 山の子鯖 http://webpage.yamanoko.fun </h5>
 
 <h1> UserFlower </h1>
 
