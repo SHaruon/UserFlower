@@ -83,6 +83,7 @@ jarディレクトリにある ファイル2点を サーバのpluginsフォル�
     <p> 60 x 60 x 20 = 72000</p>
     <p>を指定する必要があります。</p>
 
+    permission: "userflower.auto"
 
 
 
